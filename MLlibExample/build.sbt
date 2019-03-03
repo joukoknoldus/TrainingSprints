@@ -1,0 +1,16 @@
+name := "MLlibExample"
+
+version := "0.1"
+
+val sparkVersion = "2.4.0"
+
+resolvers ++= Seq(
+  "apache-snapshots" at "http://repository.apache.org/snapshots/"
+)
+
+libraryDependencies ++= Seq(
+  "org.apache.spark" %% "spark-core" % sparkVersion % "provided",
+  "org.apache.spark" %% "spark-sql" % sparkVersion % "provided",
+  "org.apache.spark" %% "spark-mllib" % sparkVersion % "provided",
+  "org.apache.spark" %% "spark-hive" % sparkVersion % "provided"
+)

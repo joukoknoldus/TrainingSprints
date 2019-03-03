@@ -1,0 +1,2 @@
+export JAVA_OPTS="-Xmx14g"
+$HOME/dev/software/sbt/bin/sbt run

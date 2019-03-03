@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="nlp$sources"
+		revision="0.1"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190227215551"/>
+	<dependencies>
+		<module organisation="org.scalanlp" name="epic-ner-en-conll_2.11">
+			<revision name="2014.10.26" status="release" pubdate="20141027004134" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="54">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2805" time="0" location="/home/jouko/.ivy2/cache/org.scalanlp/epic-ner-en-conll_2.11/ivy-2014.10.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/epic-ner-en-conll_2.11/2014.10.26/epic-ner-en-conll_2.11-2014.10.26.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="2014.10.26" rev-constraint-default="2014.10.26" rev-constraint-dynamic="2014.10.26" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="epic-ner-en-conll_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="260" time="279" location="/home/jouko/.ivy2/cache/org.scalanlp/epic-ner-en-conll_2.11/srcs/epic-ner-en-conll_2.11-2014.10.26-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/epic-ner-en-conll_2.11/2014.10.26/epic-ner-en-conll_2.11-2014.10.26-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="epic-parser-en-span_2.11">
+			<revision name="2014.9.15" status="release" pubdate="20140915162547" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2810" time="0" location="/home/jouko/.ivy2/cache/org.scalanlp/epic-parser-en-span_2.11/ivy-2014.9.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/epic-parser-en-span_2.11/2014.9.15/epic-parser-en-span_2.11-2014.9.15.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="2014.9.15" rev-constraint-default="2014.9.15" rev-constraint-dynamic="2014.9.15" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="epic-parser-en-span_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="263" time="143" location="/home/jouko/.ivy2/cache/org.scalanlp/epic-parser-en-span_2.11/srcs/epic-parser-en-span_2.11-2014.9.15-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/epic-parser-en-span_2.11/2014.9.15/epic-parser-en-span_2.11-2014.9.15-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="epic_2.11">
+			<revision name="0.2" status="release" pubdate="20140915161421" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="42">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4776" time="0" location="/home/jouko/.ivy2/cache/org.scalanlp/epic_2.11/ivy-0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/epic_2.11/0.2/epic_2.11-0.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="0.2" rev-constraint-default="0.2" rev-constraint-dynamic="0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="epic_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5592473" time="1607" location="/home/jouko/.ivy2/cache/org.scalanlp/epic_2.11/srcs/epic_2.11-0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/epic_2.11/0.2/epic_2.11-0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="nak_2.11">
+			<revision name="1.3" status="release" pubdate="20140914010353" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="78">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3763" time="0" location="/home/jouko/.ivy2/cache/org.scalanlp/nak_2.11/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/nak_2.11/1.3/nak_2.11-1.3.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="nak_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="135204" time="86" location="/home/jouko/.ivy2/cache/org.scalanlp/nak_2.11/srcs/nak_2.11-1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/nak_2.11/1.3/nak_2.11-1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-core">
+			<revision name="2.0-beta8" status="release" pubdate="20130710161804" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="77">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="18050" time="0" location="/home/jouko/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.0-beta8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.0-beta8/log4j-core-2.0-beta8.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="2.0-beta8" rev-constraint-default="2.0-beta8" rev-constraint-dynamic="2.0-beta8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="log4j-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="522636" time="230" location="/home/jouko/.ivy2/cache/org.apache.logging.log4j/log4j-core/srcs/log4j-core-2.0-beta8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.0-beta8/log4j-core-2.0-beta8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-api">
+			<revision name="2.0-beta8" status="release" pubdate="20130710161451" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="15112" time="0" location="/home/jouko/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.0-beta8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta8/log4j-api-2.0-beta8.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="2.0-beta8" rev-constraint-default="2.0-beta8" rev-constraint-dynamic="2.0-beta8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="log4j-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="99574" time="152" location="/home/jouko/.ivy2/cache/org.apache.logging.log4j/log4j-api/srcs/log4j-api-2.0-beta8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta8/log4j-api-2.0-beta8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-natives_2.11">
+			<revision name="0.8" status="release" pubdate="20140522111411" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3007" time="0" location="/home/jouko/.ivy2/cache/org.scalanlp/breeze-natives_2.11/ivy-0.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-natives_2.11/0.8/breeze-natives_2.11-0.8.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="0.8" rev-constraint-default="0.8" rev-constraint-dynamic="0.8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="breeze-natives_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="252" time="110" location="/home/jouko/.ivy2/cache/org.scalanlp/breeze-natives_2.11/srcs/breeze-natives_2.11-0.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-natives_2.11/0.8/breeze-natives_2.11-0.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="all">
+			<revision name="1.1.2" status="release" pubdate="20131126055721" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="8022" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/all/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/all/1.1.2/all-1.1.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="all" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-win-i686">
+			<revision name="1.1" status="release" pubdate="20131011174118" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7548" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-i686/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-win-i686" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86986" time="84" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-i686/srcs/netlib-native_system-win-i686-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-win-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011174207" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7552" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-win-x86_64" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86986" time="84" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-x86_64/srcs/netlib-native_system-win-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-armhf">
+			<revision name="1.1" status="release" pubdate="20131011183120" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7979" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-armhf/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-linux-armhf" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86987" time="83" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-armhf/srcs/netlib-native_system-linux-armhf-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011182927" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7981" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-linux-x86_64" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="89748" time="357" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-x86_64/srcs/netlib-native_system-linux-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-armhf">
+			<revision name="1.1" status="release" pubdate="20131011181624" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7539" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-armhf/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-linux-armhf" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86855" time="140" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-armhf/srcs/netlib-native_ref-linux-armhf-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-i686">
+			<revision name="1.1" status="release" pubdate="20131011181458" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7537" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-i686/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-linux-i686" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86855" time="108" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-i686/srcs/netlib-native_ref-linux-i686-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-config_2.11">
+			<revision name="0.9.1" status="release" pubdate="20140914005819" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3302" time="0" location="/home/jouko/.ivy2/cache/org.scalanlp/breeze-config_2.11/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-config_2.11/0.9.1/breeze-config_2.11-0.9.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="breeze-config_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12819" time="133" location="/home/jouko/.ivy2/cache/org.scalanlp/breeze-config_2.11/srcs/breeze-config_2.11-0.9.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-config_2.11/0.9.1/breeze-config_2.11-0.9.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.2" status="release" pubdate="20100102054326" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Public Domain" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4017" time="0" location="/home/jouko/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.2/paranamer-2.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="26496" time="85" location="/home/jouko/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.2/paranamer-2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze_2.11">
+			<revision name="0.9" status="release" pubdate="20140808122053" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4697" time="0" location="/home/jouko/.ivy2/cache/org.scalanlp/breeze_2.11/ivy-0.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.11/0.9/breeze_2.11-0.9.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="0.9" rev-constraint-default="0.9" rev-constraint-dynamic="0.9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="breeze_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="403888" time="159" location="/home/jouko/.ivy2/cache/org.scalanlp/breeze_2.11/srcs/breeze_2.11-0.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.11/0.9/breeze_2.11-0.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="spire_2.11">
+			<revision name="0.7.4" status="release" pubdate="20140424102931" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="76">
+				<license name="BSD-style" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3163" time="0" location="/home/jouko/.ivy2/cache/org.spire-math/spire_2.11/ivy-0.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire_2.11/0.7.4/spire_2.11-0.7.4.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spire_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="175888" time="75" location="/home/jouko/.ivy2/cache/org.spire-math/spire_2.11/srcs/spire_2.11-0.7.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/spire_2.11/0.7.4/spire_2.11-0.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="spire-macros_2.11">
+			<revision name="0.7.4" status="release" pubdate="20140424102231" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="BSD-style" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3034" time="0" location="/home/jouko/.ivy2/cache/org.spire-math/spire-macros_2.11/ivy-0.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.11/0.7.4/spire-macros_2.11-0.7.4.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spire-macros_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="6151" time="103" location="/home/jouko/.ivy2/cache/org.spire-math/spire-macros_2.11/srcs/spire-macros_2.11-0.7.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.11/0.7.4/spire-macros_2.11-0.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.rwl" name="jtransforms">
+			<revision name="2.4.0" status="release" pubdate="20120519090656" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/jtransforms/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="MPL" url="http://www.mozilla.org/MPL/2.0/index.txt"/>
+				<license name="LGPL" url="http://www.gnu.org/licenses/lgpl-2.1.txt"/>
+				<license name="GPL" url="http://www.gnu.org/licenses/gpl-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2991" time="0" location="/home/jouko/.ivy2/cache/com.github.rwl/jtransforms/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jtransforms" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="224626" time="0" location="/home/jouko/.ivy2/cache/com.github.rwl/jtransforms/srcs/jtransforms-2.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-macros_2.11">
+			<revision name="0.3.1" status="release" pubdate="20140424010945" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3150" time="0" location="/home/jouko/.ivy2/cache/org.scalanlp/breeze-macros_2.11/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.11/0.3.1/breeze-macros_2.11-0.3.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="breeze-macros_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5549" time="173" location="/home/jouko/.ivy2/cache/org.scalanlp/breeze-macros_2.11/srcs/breeze-macros_2.11-0.3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.11/0.3.1/breeze-macros_2.11-0.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mapdb" name="mapdb">
+			<revision name="0.9.2" status="release" pubdate="20130519135917" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.mapdb.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3499" time="0" location="/home/jouko/.ivy2/cache/org.mapdb/mapdb/ivy-0.9.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mapdb/mapdb/0.9.2/mapdb-0.9.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="0.9.2" rev-constraint-default="0.9.2" rev-constraint-dynamic="0.9.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="mapdb" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="150898" time="163" location="/home/jouko/.ivy2/cache/org.mapdb/mapdb/srcs/mapdb-0.9.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mapdb/mapdb/0.9.2/mapdb-0.9.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-i686">
+			<revision name="1.1" status="release" pubdate="20131011183027" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7977" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-i686/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-linux-i686" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86987" time="106" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-i686/srcs/netlib-native_system-linux-i686-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.12" status="release" pubdate="20171102203736" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.12/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2829" time="0" location="/home/jouko/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.12/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="567508" time="0" location="/home/jouko/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.12" status="release" pubdate="20171102203730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.12/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="51">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2656" time="0" location="/home/jouko/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.12/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="912259" time="0" location="/home/jouko/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="core">
+			<revision name="1.1.2" status="release" pubdate="20131126055411" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="4893" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/core/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="679224" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/core/srcs/core-1.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.nekohtml" name="nekohtml">
+			<revision name="1.9.21" status="release" pubdate="20140602052453" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nekohtml.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2694" time="0" location="/home/jouko/.ivy2/cache/net.sourceforge.nekohtml/nekohtml/ivy-1.9.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.21/nekohtml-1.9.21.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.9.21" rev-constraint-default="1.9.21" rev-constraint-dynamic="1.9.21" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="nekohtml" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="113046" time="107" location="/home/jouko/.ivy2/cache/net.sourceforge.nekohtml/nekohtml/srcs/nekohtml-1.9.21-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.21/nekohtml-1.9.21-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.10.0" status="release" pubdate="20110815173238" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://xerces.apache.org/xerces2-j/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4398" time="0" location="/home/jouko/.ivy2/cache/xerces/xercesImpl/ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.10.0/xercesImpl-2.10.0.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2063014" time="1096" location="/home/jouko/.ivy2/cache/xerces/xercesImpl/srcs/xercesImpl-2.10.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.10.0/xercesImpl-2.10.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xml-apis" name="xml-apis">
+			<revision name="1.4.01" status="release" pubdate="20110819191111" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/components/external/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="The SAX License" url="http://www.saxproject.org/copying.html"/>
+				<license name="The W3C License" url="http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip"/>
+				<metadata-artifact status="no" details="" size="3258" time="0" location="/home/jouko/.ivy2/cache/xml-apis/xml-apis/ivy-1.4.01.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.4.01" rev-constraint-default="1.4.01" rev-constraint-dynamic="1.4.01" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="xml-apis" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="656529" time="271" location="/home/jouko/.ivy2/cache/xml-apis/xml-apis/srcs/xml-apis-1.4.01-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tika" name="tika-parsers">
+			<revision name="1.5" status="release" pubdate="20140209154026" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tika.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8995" time="0" location="/home/jouko/.ivy2/cache/org.apache.tika/tika-parsers/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/tika/tika-parsers/1.5/tika-parsers-1.5.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tika-parsers" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="350197" time="219" location="/home/jouko/.ivy2/cache/org.apache.tika/tika-parsers/srcs/tika-parsers-1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tika/tika-parsers/1.5/tika-parsers-1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.uwyn" name="jhighlight">
+			<revision name="1.0" status="release" pubdate="20060802101917" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://jhighlight.dev.java.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="CDDL, v1.0" url="http://www.opensource.org/licenses/cddl1.php"/>
+				<license name="LGPL, v2.1 or later" url="http://www.opensource.org/licenses/lgpl-license.php"/>
+				<metadata-artifact status="no" details="" size="3056" time="0" location="/home/jouko/.ivy2/cache/com.uwyn/jhighlight/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/uwyn/jhighlight/1.0/jhighlight-1.0.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jhighlight" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="99731" time="74" location="/home/jouko/.ivy2/cache/com.uwyn/jhighlight/srcs/jhighlight-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/uwyn/jhighlight/1.0/jhighlight-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.juniversalchardet" name="juniversalchardet">
+			<revision name="1.0.3" status="release" pubdate="20110919123824" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://juniversalchardet.googlecode.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="Mozilla Public License 1.1 (MPL 1.1)" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<metadata-artifact status="no" details="" size="2716" time="0" location="/home/jouko/.ivy2/cache/com.googlecode.juniversalchardet/juniversalchardet/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="juniversalchardet" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="220482" time="161" location="/home/jouko/.ivy2/cache/com.googlecode.juniversalchardet/juniversalchardet/srcs/juniversalchardet-1.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="rome" name="rome">
+			<revision name="0.9" status="release" pubdate="20070511152630" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://rome.dev.java.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3295" time="0" location="/home/jouko/.ivy2/cache/rome/rome/ivy-0.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/rome/rome/0.9/rome-0.9.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="0.9" rev-constraint-default="0.9" rev-constraint-dynamic="0.9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="rome" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="196252" time="90" location="/home/jouko/.ivy2/cache/rome/rome/srcs/rome-0.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/rome/rome/0.9/rome-0.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jdom" name="jdom">
+			<revision name="1.0" status="release" pubdate="20051222062056" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<metadata-artifact status="no" details="" size="2901" time="0" location="/home/jouko/.ivy2/cache/jdom/jdom/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jdom/jdom/1.0/jdom-1.0.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jdom" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="229136" time="172" location="/home/jouko/.ivy2/cache/jdom/jdom/srcs/jdom-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jdom/jdom/1.0/jdom-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="de.l3s.boilerpipe" name="boilerpipe">
+			<revision name="1.1.0" status="release" pubdate="20101103154113" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/boilerpipe/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="Apache License 2.0"/>
+				<metadata-artifact status="no" details="" size="3331" time="0" location="/home/jouko/.ivy2/cache/de.l3s.boilerpipe/boilerpipe/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/l3s/boilerpipe/boilerpipe/1.1.0/boilerpipe-1.1.0.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="boilerpipe" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86578" time="137" location="/home/jouko/.ivy2/cache/de.l3s.boilerpipe/boilerpipe/srcs/boilerpipe-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/de/l3s/boilerpipe/boilerpipe/1.1.0/boilerpipe-1.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.drewnoakes" name="metadata-extractor">
+			<revision name="2.6.2" status="release" pubdate="20120719152102" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/metadata-extractor/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3479" time="0" location="/home/jouko/.ivy2/cache/com.drewnoakes/metadata-extractor/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.6.2/metadata-extractor-2.6.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="metadata-extractor" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="224964" time="188" location="/home/jouko/.ivy2/cache/com.drewnoakes/metadata-extractor/srcs/metadata-extractor-2.6.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.6.2/metadata-extractor-2.6.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.adobe.xmp" name="xmpcore">
+			<revision name="5.1.2" status="release" pubdate="20120703051504" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.adobe.com/devnet/xmp.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<license name="The BSD License" url="http://www.adobe.com/devnet/xmp/library/eula-xmp-library-java.html"/>
+				<metadata-artifact status="no" details="" size="2566" time="0" location="/home/jouko/.ivy2/cache/com.adobe.xmp/xmpcore/ivy-5.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="5.1.2" rev-constraint-default="5.1.2" rev-constraint-dynamic="5.1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="xmpcore" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="136918" time="176" location="/home/jouko/.ivy2/cache/com.adobe.xmp/xmpcore/srcs/xmpcore-5.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-debug-all">
+			<revision name="4.1" status="release" pubdate="20121014103958" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3959" time="0" location="/home/jouko/.ivy2/cache/org.ow2.asm/asm-debug-all/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/4.1/asm-debug-all-4.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="asm-debug-all" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="983980" time="335" location="/home/jouko/.ivy2/cache/org.ow2.asm/asm-debug-all/srcs/asm-debug-all-4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/4.1/asm-debug-all-4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ccil.cowan.tagsoup" name="tagsoup">
+			<revision name="1.2.1" status="release" pubdate="20110822120503" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://home.ccil.org/~cowan/XML/tagsoup/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3051" time="0" location="/home/jouko/.ivy2/cache/org.ccil.cowan.tagsoup/tagsoup/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tagsoup" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="68697" time="139" location="/home/jouko/.ivy2/cache/org.ccil.cowan.tagsoup/tagsoup/srcs/tagsoup-1.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.geronimo.specs" name="geronimo-stax-api_1.0_spec">
+			<revision name="1.0.1" status="release" pubdate="20071227075214" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6154" time="0" location="/home/jouko/.ivy2/cache/org.apache.geronimo.specs/geronimo-stax-api_1.0_spec/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="geronimo-stax-api_1.0_spec" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="32471" time="135" location="/home/jouko/.ivy2/cache/org.apache.geronimo.specs/geronimo-stax-api_1.0_spec/srcs/geronimo-stax-api_1.0_spec-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcmail-jdk15">
+			<revision name="1.45" status="release" pubdate="20100110223102" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="3012" time="0" location="/home/jouko/.ivy2/cache/org.bouncycastle/bcmail-jdk15/ivy-1.45.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcmail-jdk15/1.45/bcmail-jdk15-1.45.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.45" rev-constraint-default="1.45" rev-constraint-dynamic="1.45" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="bcmail-jdk15" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="196266" time="233" location="/home/jouko/.ivy2/cache/org.bouncycastle/bcmail-jdk15/srcs/bcmail-jdk15-1.45-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcmail-jdk15/1.45/bcmail-jdk15-1.45-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcprov-jdk15">
+			<revision name="1.45" status="release" pubdate="20100110223027" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2661" time="0" location="/home/jouko/.ivy2/cache/org.bouncycastle/bcprov-jdk15/ivy-1.45.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15/1.45/bcprov-jdk15-1.45.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.45" rev-constraint-default="1.45" rev-constraint-dynamic="1.45" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="bcprov-jdk15" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1286663" time="877" location="/home/jouko/.ivy2/cache/org.bouncycastle/bcprov-jdk15/srcs/bcprov-jdk15-1.45-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15/1.45/bcprov-jdk15-1.45-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="pdfbox">
+			<revision name="1.8.4" status="release" pubdate="20140127120206" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4760" time="0" location="/home/jouko/.ivy2/cache/org.apache.pdfbox/pdfbox/ivy-1.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/1.8.4/pdfbox-1.8.4.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.8.4" rev-constraint-default="1.8.4" rev-constraint-dynamic="1.8.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="pdfbox" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3844624" time="899" location="/home/jouko/.ivy2/cache/org.apache.pdfbox/pdfbox/srcs/pdfbox-1.8.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/1.8.4/pdfbox-1.8.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="jempbox">
+			<revision name="1.8.4" status="release" pubdate="20140127120010" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3920" time="0" location="/home/jouko/.ivy2/cache/org.apache.pdfbox/jempbox/ivy-1.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/jempbox/1.8.4/jempbox-1.8.4.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.8.4" rev-constraint-default="1.8.4" rev-constraint-dynamic="1.8.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jempbox" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="55376" time="104" location="/home/jouko/.ivy2/cache/org.apache.pdfbox/jempbox/srcs/jempbox-1.8.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/jempbox/1.8.4/jempbox-1.8.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.5" status="release" pubdate="20130311011708" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/compress/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9255" time="0" location="/home/jouko/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-compress" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="283704" time="117" location="/home/jouko/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.james" name="apache-mime4j-dom">
+			<revision name="0.7.2" status="release" pubdate="20120107081138" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6292" time="0" location="/home/jouko/.ivy2/cache/org.apache.james/apache-mime4j-dom/ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-dom/0.7.2/apache-mime4j-dom-0.7.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="apache-mime4j-dom" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="284504" time="143" location="/home/jouko/.ivy2/cache/org.apache.james/apache-mime4j-dom/srcs/apache-mime4j-dom-0.7.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-dom/0.7.2/apache-mime4j-dom-0.7.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.james" name="apache-mime4j-core">
+			<revision name="0.7.2" status="release" pubdate="20120107080924" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5863" time="0" location="/home/jouko/.ivy2/cache/org.apache.james/apache-mime4j-core/ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="apache-mime4j-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="98287" time="111" location="/home/jouko/.ivy2/cache/org.apache.james/apache-mime4j-core/srcs/apache-mime4j-core-0.7.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.1" status="release" pubdate="20140416042108" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/home/jouko/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109171" time="0" location="/home/jouko/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-simple">
+			<revision name="1.7.6" status="release" pubdate="20140205163731" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4525" time="0" location="/home/jouko/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.6/slf4j-simple-1.7.6.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.7.6" rev-constraint-default="1.7.6" rev-constraint-dynamic="1.7.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-simple" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11527" time="168" location="/home/jouko/.ivy2/cache/org.slf4j/slf4j-simple/srcs/slf4j-simple-1.7.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.6/slf4j-simple-1.7.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-ooxml">
+			<revision name="3.10-beta2" status="release" pubdate="20130909124458" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2991" time="0" location="/home/jouko/.ivy2/cache/org.apache.poi/poi-ooxml/ivy-3.10-beta2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.10-beta2/poi-ooxml-3.10-beta2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="poi-ooxml" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="730934" time="301" location="/home/jouko/.ivy2/cache/org.apache.poi/poi-ooxml/srcs/poi-ooxml-3.10-beta2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.10-beta2/poi-ooxml-3.10-beta2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20060210063318" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dom4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<metadata-artifact status="no" details="" size="3851" time="0" location="/home/jouko/.ivy2/cache/dom4j/dom4j/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="dom4j" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="432186" time="220" location="/home/jouko/.ivy2/cache/dom4j/dom4j/srcs/dom4j-1.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-ooxml-schemas">
+			<revision name="3.10-beta2" status="release" pubdate="20130909124652" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2728" time="0" location="/home/jouko/.ivy2/cache/org.apache.poi/poi-ooxml-schemas/ivy-3.10-beta2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-schemas/3.10-beta2/poi-ooxml-schemas-3.10-beta2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="poi-ooxml-schemas" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.xmlbeans" name="xmlbeans">
+			<revision name="2.3.0" status="release" pubdate="20070703211632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xmlbeans.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2662" time="0" location="/home/jouko/.ivy2/cache/org.apache.xmlbeans/xmlbeans/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="xmlbeans" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.opencsv" name="opencsv">
+			<revision name="2.3" status="release" pubdate="20110728000018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://opencsv.sf.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3354" time="0" location="/home/jouko/.ivy2/cache/net.sf.opencsv/opencsv/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="opencsv" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17058" time="0" location="/home/jouko/.ivy2/cache/net.sf.opencsv/opencsv/srcs/opencsv-2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="fontbox">
+			<revision name="1.8.4" status="release" pubdate="20140127115945" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pdfbox.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4091" time="0" location="/home/jouko/.ivy2/cache/org.apache.pdfbox/fontbox/ivy-1.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/fontbox/1.8.4/fontbox-1.8.4.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.8.4" rev-constraint-default="1.8.4" rev-constraint-dynamic="1.8.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="fontbox" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="162783" time="205" location="/home/jouko/.ivy2/cache/org.apache.pdfbox/fontbox/srcs/fontbox-1.8.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/fontbox/1.8.4/fontbox-1.8.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20071126142410" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4212" time="0" location="/home/jouko/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="74976" time="0" location="/home/jouko/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.2" status="release" pubdate="20130129082700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2403" time="0" location="/home/jouko/.ivy2/cache/org.tukaani/xz/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tukaani/xz/1.2/xz-1.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="xz" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="109397" time="211" location="/home/jouko/.ivy2/cache/org.tukaani/xz/srcs/xz-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.2/xz-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="de.jflex" name="jflex">
+			<revision name="1.4.3" status="release" pubdate="20090201003852" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jflex.de/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="GNU General Public License" url="http://jflex.de/copying.html#GPL"/>
+				<metadata-artifact status="no" details="" size="2783" time="0" location="/home/jouko/.ivy2/cache/de.jflex/jflex/ivy-1.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/jflex/jflex/1.4.3/jflex-1.4.3.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.4.3" rev-constraint-default="1.4.3" rev-constraint-dynamic="1.4.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jflex" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.2" status="release" pubdate="20130402143128" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9676" time="0" location="/home/jouko/.ivy2/cache/org.apache.commons/commons-math3/ivy-3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-math3" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2005074" time="454" location="/home/jouko/.ivy2/cache/org.apache.commons/commons-math3/srcs/commons-math3-3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.8.2" status="release" pubdate="20101005035127" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2546" time="0" location="/home/jouko/.ivy2/cache/junit/junit/ivy-4.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="4.8.2" rev-constraint-default="4.8.2" rev-constraint-dynamic="4.8.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="junit" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="147086" time="217" location="/home/jouko/.ivy2/cache/junit/junit/srcs/junit-4.8.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-win-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011173904" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7112" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-win-x86_64" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86854" time="203" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-x86_64/srcs/netlib-native_ref-win-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011181310" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7541" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-linux-x86_64" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86855" time="194" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/srcs/netlib-native_ref-linux-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tika" name="tika-core">
+			<revision name="1.5" status="release" pubdate="20140209153800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tika.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5146" time="0" location="/home/jouko/.ivy2/cache/org.apache.tika/tika-core/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/tika/tika-core/1.5/tika-core-1.5.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tika-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="489216" time="363" location="/home/jouko/.ivy2/cache/org.apache.tika/tika-core/srcs/tika-core-1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tika/tika-core/1.5/tika-core-1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-scratchpad">
+			<revision name="3.10-beta2" status="release" pubdate="20130909124044" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2717" time="0" location="/home/jouko/.ivy2/cache/org.apache.poi/poi-scratchpad/ivy-3.10-beta2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-scratchpad/3.10-beta2/poi-scratchpad-3.10-beta2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="poi-scratchpad" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1117027" time="367" location="/home/jouko/.ivy2/cache/org.apache.poi/poi-scratchpad/srcs/poi-scratchpad-3.10-beta2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-scratchpad/3.10-beta2/poi-scratchpad-3.10-beta2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi">
+			<revision name="3.10-beta2" status="release" pubdate="20130909120438" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2960" time="0" location="/home/jouko/.ivy2/cache/org.apache.poi/poi/ivy-3.10-beta2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi/3.10-beta2/poi-3.10-beta2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="poi" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1833133" time="846" location="/home/jouko/.ivy2/cache/org.apache.poi/poi/srcs/poi-3.10-beta2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi/3.10-beta2/poi-3.10-beta2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.5" status="release" pubdate="20110324203406" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6546" time="0" location="/home/jouko/.ivy2/cache/commons-codec/commons-codec/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="102254" time="183" location="/home/jouko/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-osx-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011173537" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7118" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-osx-x86_64" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="89373" time="90" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/srcs/netlib-native_ref-osx-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.11">
+			<revision name="2.1.2" status="release" pubdate="20140425052015" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/scala-logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3533" time="0" location="/home/jouko/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.11/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.1.2/scala-logging-slf4j_2.11-2.1.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-logging-slf4j_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="8541" time="60" location="/home/jouko/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.11/srcs/scala-logging-slf4j_2.11-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.1.2/scala-logging-slf4j_2.11-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20140404061248" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4481" time="0" location="/home/jouko/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="49406" time="165" location="/home/jouko/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging-api_2.11">
+			<revision name="2.1.2" status="release" pubdate="20140425052029" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/scala-logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2710" time="0" location="/home/jouko/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.11/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-api_2.11/2.1.2/scala-logging-api_2.11-2.1.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-logging-api_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="6232" time="137" location="/home/jouko/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.11/srcs/scala-logging-api_2.11-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-api_2.11/2.1.2/scala-logging-api_2.11-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.gagravarr" name="vorbis-java-tika">
+			<revision name="0.1" status="release" pubdate="20120203100651" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/Gagravarr/VorbisJava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3873" time="0" location="/home/jouko/.ivy2/cache/org.gagravarr/vorbis-java-tika/ivy-0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-tika/0.1/vorbis-java-tika-0.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="vorbis-java-tika" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11304" time="104" location="/home/jouko/.ivy2/cache/org.gagravarr/vorbis-java-tika/srcs/vorbis-java-tika-0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-tika/0.1/vorbis-java-tika-0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.gagravarr" name="vorbis-java-core">
+			<revision name="0.1" status="release" pubdate="20120203100542" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/Gagravarr/VorbisJava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3317" time="0" location="/home/jouko/.ivy2/cache/org.gagravarr/vorbis-java-core/ivy-0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-core/0.1/vorbis-java-core-0.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="vorbis-java-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="43660" time="130" location="/home/jouko/.ivy2/cache/org.gagravarr/vorbis-java-core/srcs/vorbis-java-core-0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-core/0.1/vorbis-java-core-0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.3.2" status="release" pubdate="20140406072129" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10669" time="0" location="/home/jouko/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="470961" time="0" location="/home/jouko/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-win-i686">
+			<revision name="1.1" status="release" pubdate="20131011173716" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7108" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-i686/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-win-i686" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86854" time="211" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-i686/srcs/netlib-native_ref-win-i686-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="native_ref-java">
+			<revision name="1.1" status="release" pubdate="20131011173421" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7257" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/native_ref-java/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="native_ref-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="28183" time="58" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/native_ref-java/srcs/native_ref-java-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-osx-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011174035" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7558" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-osx-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-osx-x86_64" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86986" time="77" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-osx-x86_64/srcs/netlib-native_system-osx-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="native_system-java">
+			<revision name="1.1" status="release" pubdate="20131011173956" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="73">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7694" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/native_system-java/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="native_system-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="28200" time="115" location="/home/jouko/.ivy2/cache/com.github.fommil.netlib/native_system-java/srcs/native_system-java-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil" name="jniloader">
+			<revision name="1.1" status="release" pubdate="20131011153947" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/fommil/jniloader" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<license name="LGPL" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3319" time="0" location="/home/jouko/.ivy2/cache/com.github.fommil/jniloader/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jniloader" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4441" time="52" location="/home/jouko/.ivy2/cache/com.github.fommil/jniloader/srcs/jniloader-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.rogach" name="scallop_2.11">
+			<revision name="0.9.5" status="release" pubdate="20140418234201" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scallop/scallop" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2920" time="0" location="/home/jouko/.ivy2/cache/org.rogach/scallop_2.11/ivy-0.9.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/rogach/scallop_2.11/0.9.5/scallop_2.11-0.9.5.pom"/>
+				<caller organisation="default" name="nlp$sources" conf="compile, runtime-internal, runtime, optional" rev="0.9.5" rev-constraint-default="0.9.5" rev-constraint-dynamic="0.9.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scallop_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="21907" time="90" location="/home/jouko/.ivy2/cache/org.rogach/scallop_2.11/srcs/scallop_2.11-0.9.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/rogach/scallop_2.11/0.9.5/scallop_2.11-0.9.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

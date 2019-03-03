@@ -1,0 +1,17 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/jouko/dev/projects/TrainingSprints/SparkNlp/target/scala-2.11/spark-nlp-workshop_2.11-1.0.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SparkNlp$$anonfun$getSVO$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/SparkNlp/target/scala-2.11/classes/SparkNlp$$anonfun$getSVO$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SparkNlp$$anonfun$main$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/SparkNlp/target/scala-2.11/classes/SparkNlp$$anonfun$main$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SparkNlp$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/SparkNlp/target/scala-2.11/classes/SparkNlp$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SparkNlp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/SparkNlp/target/scala-2.11/classes/SparkNlp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SparkNlp$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/SparkNlp/target/scala-2.11/classes/SparkNlp$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SparkNlp$$typecreator3$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/SparkNlp/target/scala-2.11/classes/SparkNlp$$typecreator3$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SparkNlp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/SparkNlp/target/scala-2.11/classes/SparkNlp.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

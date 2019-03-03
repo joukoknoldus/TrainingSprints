@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/jouko/dev/projects/TrainingSprints/ML/LogisticRegression/src/main/scala/LogisticRegression.scala:2:43: imported `LogisticRegression' is permanently hidden by definition of object LogisticRegression[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.apache.spark.ml.classification.LogisticRegression[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

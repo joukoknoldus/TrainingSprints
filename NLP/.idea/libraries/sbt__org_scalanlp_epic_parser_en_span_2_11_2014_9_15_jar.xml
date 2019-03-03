@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.scalanlp:epic-parser-en-span_2.11:2014.9.15:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scalanlp/epic-parser-en-span_2.11/jars/epic-parser-en-span_2.11-2014.9.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scalanlp/epic-parser-en-span_2.11/srcs/epic-parser-en-span_2.11-2014.9.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

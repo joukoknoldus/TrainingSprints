@@ -1,0 +1,23 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/jouko/dev/projects/TrainingSprints/ML/SummarizerExample/target/scala-2.12/summarizer_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/apache/spark/examples/ml/SummarizerExample$$typecreator5$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/ML/SummarizerExample/target/scala-2.12/classes/org/apache/spark/examples/ml/SummarizerExample$$typecreator5$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/apache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/ML/SummarizerExample/target/scala-2.12/classes/org/apache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/ML/SummarizerExample/target/scala-2.12/classes/org[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/apache/spark[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/ML/SummarizerExample/target/scala-2.12/classes/org/apache/spark[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/apache/spark/examples/ml/SummarizerExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/ML/SummarizerExample/target/scala-2.12/classes/org/apache/spark/examples/ml/SummarizerExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/apache/spark/examples/ml/SummarizerExample$$typecreator13$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/ML/SummarizerExample/target/scala-2.12/classes/org/apache/spark/examples/ml/SummarizerExample$$typecreator13$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/apache/spark/examples/ml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/ML/SummarizerExample/target/scala-2.12/classes/org/apache/spark/examples/ml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/apache/spark/examples[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/ML/SummarizerExample/target/scala-2.12/classes/org/apache/spark/examples[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/apache/spark/examples/ml/SummarizerExample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/ML/SummarizerExample/target/scala-2.12/classes/org/apache/spark/examples/ml/SummarizerExample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/apache/spark/examples/ml/SummarizerExample$$typecreator9$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jouko/dev/projects/TrainingSprints/ML/SummarizerExample/target/scala-2.12/classes/org/apache/spark/examples/ml/SummarizerExample$$typecreator9$1.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
